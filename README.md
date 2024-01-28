@@ -68,3 +68,49 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## Development Logs
+
+### Create a new project
+
+1. In GitHub, create a new project named ```react-crud```.
+2. From the development machine, open a command prompt or terminal, execute the following command.
+
+```
+npx create-react-app react-crud
+```
+
+3. Execute the following command to run the project.
+
+```
+cd react-crud
+npm start
+```
+
+4. Execute the following command to check in the source code to GitHub.
+
+```
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/chifuwang/react-crud.git
+git push -u origin main
+```  
+
+5. Create new branches ```start``` and ```dev``` in GitHub.
+
+6. From development ```react-crud``` directory, execute the following command to switch branch to ```dev```.
+
+```
+git fetch
+git branch -v -a
+git switch dev
+``` 
+
+
+## Reference
+
+- [Build Admin Dashboard App using React and Ant Design with Sidebar, Statistics Cards, Chart & Tables](https://www.youtube.com/watch?v=xvBUgdKUz5g&ab_channel=CodeWithAamir)
+
